@@ -4,8 +4,8 @@ const Platform = builder.Platform
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'numalauncher',
-        productName: 'NumaLauncher',
+        appId: 'tyaromars-operation-launcher',
+        productName: 'tyaromars-operation-launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
         copyright: 'Copyright © 2018-2020 Daniel Scalzi, 2020 TeamKUN',
         directories: {

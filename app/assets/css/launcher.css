@@ -5707,7 +5707,7 @@ form[name='submitSecretQuestion'] p {
 
 #loadSpinnerImageBack {
     position: absolute;
-    width: 280px;
+    width: 900px;
     height: auto;
     z-index: 400;
 }
@@ -5720,7 +5720,7 @@ form[name='submitSecretQuestion'] p {
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(-360deg);
     }
 }
 

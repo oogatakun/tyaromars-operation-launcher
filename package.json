@@ -1,13 +1,13 @@
 {
     "name": "tyaromars-operation-launchar",
     "version": "1.0.0",
-    "productName": ".tyaromars-operation-launcher",
+    "productName": "tyaromars-operation-launcher",
     "description": "ちゃまでも使えるMinecraftランチャー",
-    "author": "Daniel Scalzi (https://github.com/dscalzi/), Kamesuta (https://github.com/Kamesuta/)",
+    "author": "Daniel Scalzi (https://github.com/dscalzi/), oogata_kun (https://github.com/oogatakun/)",
     "license": "UNLICENSED",
-    "homepage": "https://github.com/TeamKun/NumaLauncher",
+    "homepage": "https://github.com/oogatakun/tyaromars-operation-launchar",
     "bugs": {
-        "url": "https://github.com/TeamKun/NumaLauncher/issues"
+        "url": "https://github.com/oogatakun/tyaromars-operation-launchar/issues"
     },
     "private": true,
     "main": "index.js",
@@ -57,6 +57,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/TeamKun/NumaLauncher.git"
+        "url": "git+https://github.com/oogatakun/tyaromars-operation-launchar.git"
     }
 }
