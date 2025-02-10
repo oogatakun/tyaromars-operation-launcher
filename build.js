@@ -32,7 +32,7 @@ builder.build({
             target: 'AppImage',
             maintainer: 'Daniel Scalzi, TeamKUN',
             vendor: 'Daniel Scalzi, TeamKUN',
-            synopsis: '沼でも使えるMinecraftランチャー',
+            synopsis: 'ちゃまでも使えるMinecraftランチャー',
             description: '参加型に参加するためのすべてがここに。Mod、コンフィグ、アップデートが全自動で揃います。',
             category: 'Game'
         },
