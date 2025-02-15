@@ -30,6 +30,7 @@ DistroManager.onDistroLoad = DistroManager.onCustomDistroLoad = function(data){
 }
 
 // Ensure Distribution is downloaded and cached.
+// DistroManager.distroURL = 'https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/pack/test/distribution.json'
 DistroManager.distroURL = 'https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/distribution.json'
 // DistroManager.distroURL = 'https://tyromarse.wstr.fr/nebula/distribution.json'
 //DistroManager.distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
