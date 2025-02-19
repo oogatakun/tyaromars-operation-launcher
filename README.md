@@ -1,6 +1,6 @@
 <p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
 
-<h1 align="center">チャロマーズランチャー</h1>
+<h1 align="center">チャロマーズランチャー運営用</h1>
 
 <em><h5 align="center">(formerly Electron Launcher)</h5></em>
 
@@ -8,7 +8,7 @@
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `tyaromars-launcher-setup.exe` |
+| Windows x64 | `tyaromars-operation-launcher-setup-VERSION.exe` |
 | macOS with Intel CPU | `サポート対象外` |
 | macOS with AppleSilicon CPU | `サポート対象外` |
 | Linux x64 | `サポート対象外` |
@@ -38,8 +38,8 @@ ctrl + shift + i
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/oogatakun/tyaromars-launchar.git
-> cd tyaromarse-Launcher
+> git clone https://github.com/oogatakun/tyaromars-operation-launcher.git
+> cd tyaromars-operation-launcher
 > npm install
 ```
 
