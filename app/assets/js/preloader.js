@@ -30,8 +30,9 @@ DistroManager.onDistroLoad = DistroManager.onCustomDistroLoad = function(data){
 }
 
 // Ensure Distribution is downloaded and cached.
+// DistroManager.distroURL = 'https://raw.githubusercontent.com/TeamKun/ModPacks/deploy/distribution.json'      //team_kun
 // DistroManager.distroURL = 'https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/pack/test/distribution.json'
-DistroManager.distroURL = 'https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/distribution.json'
+DistroManager.distroURL = 'https://raw.githubusercontent.com/oogatakun/operation-modPack/refs/heads/main/distribution.json'     //tyaromarsメイン
 // DistroManager.distroURL = 'https://tyromarse.wstr.fr/nebula/distribution.json'
 //DistroManager.distroURL = 'http://mc.westeroscraft.com/WesterosCraftLauncher/distribution.json'
 // DistroManager.distroURL = 'https://gist.githubusercontent.com/dscalzi/53b1ba7a11d26a5c353f9d5ae484b71b/raw/'
