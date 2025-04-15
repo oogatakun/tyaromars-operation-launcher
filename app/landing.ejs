@@ -8,6 +8,38 @@
         </div>
         <div id="content">
         </div>
+            <div class="mc-server-banner">
+                <img 
+                    id="mc-banner-img"
+                    src="https://tt0.link/php/mc-server-info/img/mc-list/?ip=tyaromarsbebe.f5.si&port=25565" 
+                    alt="サーバーがオフラインです"
+                >
+            </div>
+          
+            <script>
+                const img = document.getElementById('mc-banner-img');
+            
+                // 画像読み込みが完了したときにチェック
+                img.onload = function () {
+                // 画像が読み込まれたが、幅が0なら壊れてると判定
+                if (img.naturalWidth === 0 || img.naturalHeight === 0) {
+                    img.src = 'assets/images/offline.png';
+                }
+                };
+            
+                // エラーが発生した場合（明確に読み込めなかったとき）
+                img.onerror = function () {
+                img.src = 'assets/images/offline.png';
+                };
+            
+                // 念のため3秒後に再チェック（読み込みが遅延してる場合）
+                setTimeout(() => {
+                if (!img.complete || img.naturalWidth === 0) {
+                    img.src = 'assets/images/offline.png';
+                }
+                }, 3000);
+            </script>
+          
         <div id="right">
             <div id="rightContainer">
                 <div id="user_content">

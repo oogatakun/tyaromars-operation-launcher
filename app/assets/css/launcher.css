@@ -4416,6 +4416,19 @@ form[name='submitSecretQuestion'] p {
     position: relative;
 }
 
+.mc-server-banner {
+    position: fixed; /* 必要に応じて relative 親要素の中で使ってください */
+    bottom: 420px;
+    right: 300px;
+    z-index: 1000; /* 他の要素に埋もれないように */
+  }
+  
+  /* 必要なら画像のサイズも調整 */
+  .mc-server-banner img {
+    width: 500px; /* 好きなサイズに調整可能 */
+    height: auto;
+  }
+
 
 /* User profile avatar container. */
 
