@@ -1,6 +1,6 @@
 {
     "name": "tyaromars-operation-launchar",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "productName": "tyaromars-operation-launcher",
     "description": "ちゃまでも使えるMinecraftランチャー",
     "author": "Daniel Scalzi (https://github.com/dscalzi/), oogatakun (https://github.com/oogatakun/)",
@@ -45,7 +45,7 @@
         "sweetalert2": "^11.1.2",
         "tar": "^6.1.11",
         "tar-fs": "^2.1.1",
-        "tar.gz": "^0.1.1",
+        "tar.gz": "^1.0.7",
         "winreg": "^1.2.4",
         "zlib": "^1.0.5"
     },
